@@ -1,3 +1,5 @@
+## facefolderdb
+
 Perform facial recognition (matching) against corpus of known face images
 
 Code takes an image of a face and seeks to match the image against a corpus
