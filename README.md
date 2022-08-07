@@ -1,4 +1,4 @@
-## facefolderdb
+# facefolderdb
 
 Perform facial recognition (matching) against corpus of known face images
 
@@ -10,13 +10,13 @@ matched image in a seperate folder for checking by the user. The program then cr
 in a sqlite3 database for later matching.  The time taken and time of execution
 of the program is also created in a matching log file.
 
-# Outputs: 
+## Outputs: 
     - facefolder.log: log file of date / time used and time of execution. Uses  
     - facematch.db: sqlite3 database 
 
 
-# Todo:   
-    hash the images and store to the database 
+## Todo:   
+    * hash the images and store to the database 
     check if the unknown is in the database first (after hash added to database) If hash found print "already found"
     create a new folder / file structure for each run 
     args for the destination folder 
