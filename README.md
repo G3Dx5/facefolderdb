@@ -16,12 +16,13 @@ of the program is also created in a matching log file.
 
 
 ## Todo:   
-    * hash the images and store to the database 
+    Markup : * hash the images and store to the database 
     * check if the unknown is in the database first (after hash added to database) If hash found print "already found"
     * create a new folder / file structure for each run 
-    * args for the destination folder 
+    args for the destination folder 
 
 
 ## Use / Paramaters:
     python3 scriptname -i <imagename_of_unknown> -s source_directory
+    
     eg. python3 facefolderdb.py -i unknown_face.jpg -s image_files
