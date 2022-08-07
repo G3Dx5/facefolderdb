@@ -12,7 +12,7 @@ matched image in a seperate folder for checking by the user. The program then cr
 in a sqlite3 database for later matching.  The time taken and time of execution
 of the program is also created in a matching log file.
 
-! Beware .DS_Store images is using on MacOS
+Beware .DS_Store images is using on MacOS
 
 ## Outputs: 
     - facefolder.log: log file of date / time used and time of execution 
