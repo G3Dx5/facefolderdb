@@ -10,6 +10,8 @@ matched image in a seperate folder for checking by the user. The program then cr
 in a sqlite3 database for later matching.  The time taken and time of execution
 of the program is also created in a matching log file.
 
+
+
 ## Outputs: 
     - facefolder.log: log file of date / time used and time of execution. 
     - facematch.db: sqlite3 database 
@@ -23,6 +25,9 @@ of the program is also created in a matching log file.
 
 
 ## Use / Paramaters:
+    1. Place reference image at top level
+    2. Place comparison images in "images" folder  
+    
     python3 scriptname -i <imagename_of_unknown> -s source_directory
     
     eg. python3 facefolderdb.py -i unknown_face.jpg -s image_files
